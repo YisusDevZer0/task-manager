@@ -1,0 +1,179 @@
+/* Estilos para la lista de tareas y DataTable */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #da190b;
+}
+
+.editButton {
+  background-color: #ffa500;
+}
+
+.editButton:hover {
+  background-color: #e68900;
+}
+
+/* Estilo para el botón de añadir tarea */
+.addButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.addButton:hover {
+  background-color: #45a049;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modalContent h3 {
+  margin-bottom: 20px;
+}
+
+.modalContent input,
+.modalContent textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.saveButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background-color: #45a049;
+}
+
+.closeButton {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.closeButton:hover {
+  background-color: #da190b;
+}
+/* Estilos para el status en la columna */
+.statusPendiente {
+  background-color: #f44336; /* Rojo para "Pendiente" */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.statusEnProgreso {
+  background-color: #ffa500; /* Naranja para "En Progreso" */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.statusCompletada {
+  background-color: #4caf50; /* Verde para "Completada" */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+/* Estilos para los campos de formulario (input, select, textarea) */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box; /* Para que el padding no sobresalga del ancho */
+}
+
+/* Personalización del select */
+select {
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: #007BFF; /* Cambia el borde al hacer foco */
+  outline: none;
+}
+
+/* Estilo para las opciones */
+option {
+  padding: 10px;
+  background-color: white;
+  color: #333;
+}
+
+/* Ajuste al hover del select */
+select:hover {
+  border-color: #0056b3; /* Azul más oscuro */
+}
